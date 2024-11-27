@@ -11,3 +11,4 @@ Route::get('/', function () {
 });
 Route::get('sHook', [SHookController::class, 'sHook'])->name('sHook');
 Route::get('eHook', [EHookController::class, 'eHook'])->name('eHook');
+Route::webhooks('webhook-receiving-url');
