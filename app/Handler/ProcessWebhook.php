@@ -23,7 +23,7 @@ class ProcessWebhook extends ProcessWebhookJob
           // Whatever you want
             Log::info($data);
         }
-
+dd('payload, $data');
         //Acknowledge you received the response
         http_response_code(200);
     }

@@ -10,7 +10,7 @@ class SHookController extends Controller
     public function sHook(Request $request)
     {
         $request = WebhookCall::create()
-        ->url('https://webhook.site/554c9fda-bee9-48b7-bc4b-01ef105847d6')
+        ->url('https://webhook.site/f0f82986-dd86-43c1-84c6-9f29c52c9202')
         ->useHttpVerb('POST')
         ->doNotSign()
         ->timeoutInSeconds(5)
